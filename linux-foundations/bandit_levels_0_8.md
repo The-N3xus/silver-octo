@@ -60,3 +60,30 @@ Finding the hidden files was not hard this time but I did have to cycle through 
 Or you can use "find -type f -exec sh -c 'file --mime-type "$1" | grep -q "text/"' _ {} \; -print" though it worked I can't really explain how yet.
 **Info for the next level**
 `6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG`
+
+---
+### Level 5 ->  Level 6
+**Objective:** Find the hidden password with specific properties
+**Commands Used:**
+`cd ./inhere`
+`find . -type f -size 1033c ! -executable`
+`cat ./maybehere07/.file2`
+**What I learned:**
+I learned how to use the find command much better to suite the actions I am doing such as finding files that I don't know the name of or files I only know the properties of.
+**Info for the next level**
+`pXa26xhMWaC2SvDotA4r9EgZkulOeSBW`
+
+---
+
+### Level 6 ->  Level 7
+**Objective:** Find the hidden password with specific properties but this time by ownership
+**Commands Used:**
+`cd ./inhere`
+`find / -user bandit7 -group bandit6 -size 33c 2>/dev/null`
+`cat /var/lib/dpkg/info/bandit7.password`
+**What I learned:**
+I learned how to use the find command to find files or directories by ownership as well as how to push 'permission denied' errors away when using a standard account without elevated priveleges 
+**Info for the next level**
+`Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3`
+
+---
