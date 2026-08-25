@@ -82,8 +82,108 @@ I learned how to use the find command much better to suite the actions I am doin
 `find / -user bandit7 -group bandit6 -size 33c 2>/dev/null`
 `cat /var/lib/dpkg/info/bandit7.password`
 **What I learned:**
-I learned how to use the find command to find files or directories by ownership as well as how to push 'permission denied' errors away when using a standard account without elevated priveleges 
+I learned how to use the find command to find files or directories by ownership as well as how to push 'permission denied' errors away when using a standard account without elevated priveleges and how to send error codes away so we don't see them in the terminal.
 **Info for the next level**
 `Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3`
+
+---
+
+### Level 7 -> Level 8
+**Objective:** Find password in a text file next to the word millionth
+**Commands Used:**
+`ls`
+`cat data.txt | grep "millionth"`
+**What I learned:**
+Today I learned how to use the grep commnand in searching for specific info in a file or directory as well as using the pipe command to feed results of one command into another
+**Info for the next level**
+`VR1ljMayciFxbnUokuQmJFw6QC9VKtub`
+
+---
+
+### Level 8 -> Level 9
+**Objective:** Find the password hidden in a text file in a line of text that only occurs once in the file
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
+
+---
+
+### Level 7 -> Level 8
+**Objective:** 
+**Commands Used:**
+**What I learned:**
+**Info for the next level**
 
 ---
