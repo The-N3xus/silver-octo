@@ -103,24 +103,35 @@ Today I learned how to use the grep commnand in searching for specific info in a
 ### Level 8 -> Level 9
 **Objective:** Find the password hidden in a text file in a line of text that only occurs once in the file
 **Commands Used:**
+`sort data.txt | uniq -u`
 **What I learned:**
+Today I learned that I can use a command called `uniq` to pick out duplicate lines in a text file but it only does that for the lines adjacent to each other not the whole file, so then you need to use it hand in hand with the `sort` command to present the information in alphabetical order in order to for the `uniq` command to run as intended
 **Info for the next level**
+`EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl`
 
 ---
 
-### Level 7 -> Level 8
-**Objective:** 
+### Level 9 -> Level 10
+**Objective:** Find the password hidden in the data.txt file and it is hidden as one of the few human readable strings preceded by several "=" characters.
 **Commands Used:**
+`ls`
+`strings data.txt | grep "="`
 **What I learned:**
+In cases where a file is littered with non human readable noise you can use the `strings` command to filter through all that and just give you what is readable by humans and then I piped that output to the `grep` command to give me only the characters preceeded by several '=' as instructed
 **Info for the next level**
+`B0s2khmbT9u0geKuOoVGW3JZKhndE3BG`
 
 ---
 
-### Level 7 -> Level 8
-**Objective:** 
+### Level 10 -> Level 11
+**Objective:**  Find the password in a file that is using base64 encoding
 **Commands Used:**
+`ls`
+`echo "VGhlIHBhc3N3b3JkIGlzIHBZZk9ZNkh3VXNEajVyTDlVdnloVTdNQ212OHZONVJvCg==" | base64 -d`
 **What I learned:**
+When dealing with encrypted info or files that use a different encodinng you need to de-encode them first to be able to use them. That is where the `base64 -d` command came in handy to de-encode the file first and give me the inof I needed.
 **Info for the next level**
+`pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro`
 
 ---
 
