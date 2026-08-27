@@ -168,11 +168,18 @@ When dealing with encrypted info or files that use a different encodinng you nee
 
 ---
 
-### Level 7 -> Level 8
-**Objective:** 
+### Level 11 -> Level 12
+**Objective:** Find the password in a data.txt file where all the lowercase [a-z] and uppercase [A-Z] characters have been rotated 13 times.
+
 **Commands Used:**
+`ls`
+`cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-M' or `tr 'a-zA-Z' 'n-za-mN-ZA-M' < data.txt`
+
 **What I learned:**
+The passowrd was encrypted using the ROT13 method that rotates characters of the alphabet every 13th letter. Inorder to solve this puzzle I needed to use the `tr` command that sorts the data from the original output 'Set1' to a new 'Set2" using the criteria you provide.
+
 **Info for the next level**
+`GROozWPO8QyN0mGrjUkID0WCYkZiQxrN`
 
 ---
 
