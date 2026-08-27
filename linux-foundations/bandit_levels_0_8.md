@@ -173,7 +173,7 @@ When dealing with encrypted info or files that use a different encodinng you nee
 
 **Commands Used:**
 `ls`
-`cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-M' or `tr 'a-zA-Z' 'n-za-mN-ZA-M' < data.txt`
+`cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-M'` or `tr 'a-zA-Z' 'n-za-mN-ZA-M' < data.txt`
 
 **What I learned:**
 The passowrd was encrypted using the ROT13 method that rotates characters of the alphabet every 13th letter. Inorder to solve this puzzle I needed to use the `tr` command that sorts the data from the original output 'Set1' to a new 'Set2" using the criteria you provide.
@@ -183,7 +183,7 @@ The passowrd was encrypted using the ROT13 method that rotates characters of the
 
 ---
 
-### Level 7 -> Level 8
+### Level 12 -> Level 13
 **Objective:** 
 **Commands Used:**
 **What I learned:**
