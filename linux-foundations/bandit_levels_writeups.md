@@ -41,7 +41,7 @@ For file names or directories with spaces in the names, you can either use quoat
 ` cd ./inhere`
 ` ls -a`
 ` cat ./...Hiding-From-You`
-` find ./inhere -type f -name ".*"
+` find ./inhere -type f -name ".*"`
 
 **What I learned:**
 Some directories can have hidden files that won't show up if you only use the `ls` command but is you use the `ls -a` command then it reads all files hidden or not but that doesn't work then you can also try using the `find` command.
