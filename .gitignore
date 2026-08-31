@@ -1,0 +1,10 @@
+# Ignore the entire folder where you store raw downloads and passwords
+local_data/
+
+# Ignore any text file with "password" or "flag" in the name, anywhere in the repo
+*password*.txt
+*flag*.txt
+
+# Standard Python ignore rules (prevents junk files from uploading)
+__pycache__/
+*.pyc
