@@ -9,9 +9,6 @@
 **What I Learned:**
 The `cat` command reads data from the file and outputs its contents directly to the terminal.
 
-**Info for the next levels**
-`Password:6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR`
-
 ---
 
 ### Level 1 -> Level 2
@@ -23,9 +20,6 @@ The `cat` command reads data from the file and outputs its contents directly to 
 **What I Learned:**
 The `cat` command cannot operate properly when directories or file names are special characters or begin with them.
 
-**Info for the next level**
-`PK8fYLZg2hnHSz83plBL1iEPKdD3QToB`
-
 ---
 
 ### Level 2 -> Level 3
@@ -36,9 +30,6 @@ The `cat` command cannot operate properly when directories or file names are spe
 
 **What I Learned:**
 For file names or directories with spaces in the names, you can either use quoation marks [""] for the command to read it as one or use the backward slash [\] to tell it to treat each slash as a space.
-
-**Info for the next level**
-`7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME`
 
 ---
 
@@ -55,9 +46,6 @@ For file names or directories with spaces in the names, you can either use quoat
 **What I learned:**
 Some directories can have hidden files that won't show up if you only use the `ls` command but is you use the `ls -a` command then it reads all files hidden or not but that doesn't work then you can also try using the `find` command.
 
-**Info for the next level**
-`xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq`
-
 ---
 
 ### Level 4 -> Level 5
@@ -73,9 +61,6 @@ Some directories can have hidden files that won't show up if you only use the `l
 Finding the hidden files was not hard this time but I did have to cycle through the files until I landed on the right file. 
 Or you can use "find -type f -exec sh -c 'file --mime-type "$1" | grep -q "text/"' _ {} \; -print" though it worked I can't really explain how yet.
 
-**Info for the next level**
-`6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG`
-
 ---
 ### Level 5 ->  Level 6
 **Objective:** Find the hidden password with specific properties.
@@ -87,9 +72,6 @@ Or you can use "find -type f -exec sh -c 'file --mime-type "$1" | grep -q "text/
 
 **What I learned:**
 I learned how to use the find command much better to suite the actions I am doing such as finding files that I don't know the name of or files I only know the properties of.
-
-**Info for the next level**
-`pXa26xhMWaC2SvDotA4r9EgZkulOeSBW`
 
 ---
 
@@ -104,9 +86,6 @@ I learned how to use the find command much better to suite the actions I am doin
 **What I learned:**
 I learned how to use the find command to find files or directories by ownership as well as how to push 'permission denied' errors away when using a standard account without elevated priveleges and how to send error codes away so we don't see them in the terminal.
 
-**Info for the next level**
-`Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3`
-
 ---
 
 ### Level 7 -> Level 8
@@ -118,9 +97,6 @@ I learned how to use the find command to find files or directories by ownership 
 
 **What I learned:**
 Today I learned how to use the grep commnand in searching for specific info in a file or directory as well as using the pipe command to feed results of one command into another.
-
-**Info for the next level**
-`VR1ljMayciFxbnUokuQmJFw6QC9VKtub`
 
 ---
 
