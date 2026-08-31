@@ -109,9 +109,6 @@ Today I learned how to use the grep commnand in searching for specific info in a
 **What I learned:**
 Today I learned that I can use a command called `uniq` to pick out duplicate lines in a text file but it only does that for the lines adjacent to each other not the whole file, so then you need to use it hand in hand with the `sort` command to present the information in alphabetical order in order to for the `uniq` command to run as intended.
 
-**Info for the next level**
-`EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl`
-
 ---
 
 ### Level 9 -> Level 10
@@ -123,9 +120,6 @@ Today I learned that I can use a command called `uniq` to pick out duplicate lin
 
 **What I learned:**
 In cases where a file is littered with non human readable noise you can use the `strings` command to filter through all that and just give you what is readable by humans and then I piped that output to the `grep` command to give me only the characters preceeded by several '=' as instructed.
-
-**Info for the next level**
-`B0s2khmbT9u0geKuOoVGW3JZKhndE3BG`
 
 ---
 
@@ -139,9 +133,6 @@ In cases where a file is littered with non human readable noise you can use the 
 **What I learned:**
 When dealing with encrypted info or files that use a different encodinng you need to de-encode them first to be able to use them. That is where the `base64 -d` command came in handy to de-encode the file first and give me the inof I needed.
 
-**Info for the next level**
-`pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro`
-
 ---
 
 ### Level 11 -> Level 12
@@ -154,63 +145,11 @@ When dealing with encrypted info or files that use a different encodinng you nee
 **What I learned:**
 The passowrd was encrypted using the ROT13 method that rotates characters of the alphabet every 13th letter. Inorder to solve this puzzle I needed to use the `tr` command that sorts the data from the original output 'Set1' to a new 'Set2" using the criteria you provide.
 
-**Info for the next level**
-`GROozWPO8QyN0mGrjUkID0WCYkZiQxrN`
-
 ---
 
 ### Level 12 -> Level 13
 **Objective:** 
 **Commands Used:**
 **What I learned:**
-**Info for the next level**
-
----
-
-### Level 7 -> Level 8
-**Objective:** 
-**Commands Used:**
-**What I learned:**
-**Info for the next level**
-
----
-
-### Level 7 -> Level 8
-**Objective:** 
-**Commands Used:**
-**What I learned:**
-**Info for the next level**
-
----
-
-### Level 7 -> Level 8
-**Objective:** 
-**Commands Used:**
-**What I learned:**
-**Info for the next level**
-
----
-
-### Level 7 -> Level 8
-**Objective:** 
-**Commands Used:**
-**What I learned:**
-**Info for the next level**
-
----
-
-### Level 7 -> Level 8
-**Objective:** 
-**Commands Used:**
-**What I learned:**
-**Info for the next level**
-
----
-
-### Level 7 -> Level 8
-**Objective:** 
-**Commands Used:**
-**What I learned:**
-**Info for the next level**
 
 ---
